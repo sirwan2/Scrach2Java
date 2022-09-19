@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arbeit/Arbeit.iml" filepath="$PROJECT_DIR$/Arbeit/Arbeit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Scrch2Java.iml" filepath="$PROJECT_DIR$/.idea/Scrch2Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scrch2Java.1/Scrch2Java.1.iml" filepath="$PROJECT_DIR$/Scrch2Java.1/Scrch2Java.1.iml" />
+    </modules>
+  </component>
+</project>
