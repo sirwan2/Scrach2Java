@@ -1,4 +1,3 @@
-import javax.sound.midi.Soundbank;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -31,7 +30,7 @@ public class Dreiecksungleichung {
             System.out.println("Umfang" + umfang);
             // flächeninhalt nach dem Satz von Heron
             double s = (a + b + c) / 2;
-            flaecheninhalt = Math.sqrt(s * (s - a) * (s - b) * (s - c));
+            flaecheninhalt = MatheKLasse.sqrt(s * (s - a) * (s - b) * (s - c));
             System.out.println("flächeninhalt" + flaecheninhalt);
 
         }else{
