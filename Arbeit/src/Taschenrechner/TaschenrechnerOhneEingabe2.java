@@ -1,6 +1,6 @@
 package Taschenrechner;
 
-public class TaschenrechnerOhneEingabe {
+public class TaschenrechnerOhneEingabe2 {
     public static void main(String[] args) {
      double Zahl;
      Zahl=2;
