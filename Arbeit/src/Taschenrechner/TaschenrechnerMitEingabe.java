@@ -8,6 +8,9 @@ public class TaschenrechnerMitEingabe {
     public static void main(String[] args) throws IOException {
        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
+       System.out.println(" Mit für ein Zeichen willst du arbeiten");
+
+
        System.out.println("Erste zahl.");
        String eingabe = bufferedReader.readLine();
        double zahl = Double.parseDouble(eingabe);
@@ -31,7 +34,6 @@ public class TaschenrechnerMitEingabe {
        System.out.println("differenz beträgt" + differenz);
        System.out.println("produkt beträgt"+ produkt);
        System.out.println("Quotien beträgt"+ Quotient);
-
 
 
 
