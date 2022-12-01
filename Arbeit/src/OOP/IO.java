@@ -30,23 +30,32 @@ public class IO {
         }
     }
 
-    public static boolean readDouble() throws IOException {
+    public static double readDouble() throws IOException {
         while (true) {
-            String eingabe = readString();
-            boolean nein = eingabe.equalsIgnoreCase("nein");
-            if (eingabe.equals("J") || (eingabe.equalsIgnoreCase("ja"))) {
-                return true;
-            } else if ((eingabe.equals("nein")) || (eingabe.equalsIgnoreCase("nein")))
-                return false;
+            String text = readString();
+            try {
+                double zahl = Double.parseDouble(text);
+                return zahl;
+            } catch (NumberFormatException e) {
+                System.out.println("Ungültige Eingabe. Bitte erneut versuchen");
+            }
         }
 
 
     }
 
 
-    public static boolean readboolen() {
+    public static boolean readboolen() throws IOException {
+        while (true) {
+            String eingabe = readString();
+            boolean nein = eingabe.equalsIgnoreCase("nein");
+            if (eingabe.equals("yes") || (eingabe.equalsIgnoreCase("ja"))) {
+                return true;
+            } else if ((eingabe.equals("no")) || (eingabe.equalsIgnoreCase("nein")))
+                return false;
+            return false;
+        }
 
-        return false;
     }
 }
 
